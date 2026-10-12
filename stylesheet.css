@@ -1,0 +1,143 @@
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('assets/fonts/Lato-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('assets/fonts/Lato-Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Lato';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url('assets/fonts/Lato-Italic.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Lato';
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url('assets/fonts/Lato-BoldItalic.ttf') format('truetype');
+}
+
+a {
+  color: #1772d0;
+  text-decoration: none;
+}
+
+a:focus,
+a:hover {
+  color: #f09228;
+  text-decoration: none;
+}
+
+body,
+td,
+th,
+tr,
+p,
+a {
+  font-family: 'Lato', Verdana, Helvetica, sans-serif;
+  font-size: 14px
+}
+
+strong {
+  font-family: 'Lato', Verdana, Helvetica, sans-serif;
+  font-size: 14px;
+}
+
+heading {
+  font-family: 'Lato', Verdana, Helvetica, sans-serif;
+  font-size: 22px;
+}
+
+papertitle {
+  font-family: 'Lato', Verdana, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: 700
+}
+
+name {
+  font-family: 'Lato', Verdana, Helvetica, sans-serif;
+  font-size: 32px;
+}
+
+.one {
+  width: 160px;
+  height: 160px;
+  position: relative;
+}
+
+.two {
+  width: 160px;
+  height: 160px;
+  position: absolute;
+  transition: opacity .2s ease-in-out;
+  -moz-transition: opacity .2s ease-in-out;
+  -webkit-transition: opacity .2s ease-in-out;
+}
+
+.fade {
+  transition: opacity .2s ease-in-out;
+  -moz-transition: opacity .2s ease-in-out;
+  -webkit-transition: opacity .2s ease-in-out;
+}
+
+span.highlight {
+  background-color: #ffffd0;
+}
+
+.first-author-highlight {
+  background-color: #ffffd0;
+}
+
+.github-star-badge {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.github-star-badge img {
+  vertical-align: middle;
+}
+
+.paper-subrow {
+  margin-top: 6px;
+}
+
+/* Semantic headings retain the template's original sizes and normal weight. */
+h1, h2, h3 { font-family: 'Lato', Verdana, Helvetica, sans-serif; display: inline; margin: 0; }
+h1 { font-size: 32px; font-weight: 400; }
+h2 { font-size: 22px; font-weight: 400; }
+h3 { font-size: 14px; font-weight: 700; }
+img { max-width: 100%; height: auto; }
+.profile-photo { border-radius: 50%; }
+.paper-award { color: #c00000; font-weight: 700; }
+summary { cursor: pointer; }
+a:focus-visible, summary:focus-visible { outline: 2px solid #1772d0; outline-offset: 3px; }
+.skip-link { position: absolute; top: -100px; left: 8px; background: white; padding: 8px; }
+.skip-link:focus { top: 8px; }
+.author-details { margin-top: 6px; }
+
+@media (max-width: 600px) {
+  .profile-table, .profile-table > tbody, .profile-table > tbody > tr,
+  .publication-table, .publication-table > tbody, .publication-table > tbody > tr,
+  .experience-table, .experience-table > tbody, .experience-table > tbody > tr { display: block; width: 100%; }
+  .profile-table > tbody > tr { display: flex; flex-direction: column-reverse; }
+  .profile-table td, .publication-table td, .experience-table td { display: block; width: auto !important; max-width: none !important; padding: 16px !important; }
+  .profile-table .photo-cell { align-self: center; width: 180px !important; padding-bottom: 0 !important; }
+  .publication-table .tdimg { text-align: center; padding-bottom: 0 !important; }
+  .publication-table img { max-width: 100%; }
+  .publication-table td { overflow-wrap: anywhere; }
+  .section-heading td { padding: 20px 16px !important; }
+}
+@media print { .skip-link { display: none; } .publication-table tr { break-inside: avoid; } }

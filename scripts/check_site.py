@@ -30,7 +30,7 @@ class SiteParser(HTMLParser):
                 self.refs.append(attr[key])
         for key in ('aria-labelledby', 'aria-controls'):
             self.labels.extend(attr.get(key, '').split())
-        if tag == 'article':
+        if tag == 'tr' and attr.get('data-work') in ('publication', 'report'):
             self.articles.append(attr)
         if tag == 'img':
             self.images.append(attr)

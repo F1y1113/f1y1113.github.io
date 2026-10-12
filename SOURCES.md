@@ -29,3 +29,9 @@ Images are optimized WebP copies. Research figures remain attributed to their re
 | `maxsup.webp` | `ZhouYuxuanYX/Maximum-Suppression-Regularization`, `Improved_Feature.png` |
 
 The favicon is a simple YD monogram. The site includes no analytics or third-party tracking resources. All resources needed to render the site are local; external links open research resources and profiles.
+
+## Layout and typography
+
+The supplied HTML and CSS template is used for the page's 800px table layout, profile columns, section headings, publication rows, link colors, and first-author highlights. Its original attribution to Jon Barron's academic website (https://jonbarron.info/) is retained. Changes to the base styling are limited to local font loading, equivalent semantic heading styles, accessibility, and mobile/print support.
+
+Lato Regular, Bold, Italic, and Bold Italic are bundled from the official Google Fonts repository at `https://github.com/google/fonts/tree/main/ofl/lato` under the SIL Open Font License, included in `assets/fonts/OFL.txt`. Local font files ensure the specified typeface actually renders without contacting an external font service.

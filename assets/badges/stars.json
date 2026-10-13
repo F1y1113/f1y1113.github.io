@@ -1,0 +1,32 @@
+{
+  "lcvn": {
+    "repo": "UWMILab/LCVN",
+    "count": 130,
+    "checked": "2026-10-13"
+  },
+  "uniwm": {
+    "repo": "UWMILab/UniWM",
+    "count": 312,
+    "checked": "2026-10-13"
+  },
+  "havln2": {
+    "repo": "UWMILab/HA-VLN",
+    "count": 462,
+    "checked": "2026-10-13"
+  },
+  "govig": {
+    "repo": "UWMILab/GoViG",
+    "count": 28,
+    "checked": "2026-10-13"
+  },
+  "finance": {
+    "repo": "F1y1113/fin_survey",
+    "count": 4,
+    "checked": "2026-10-13"
+  },
+  "shield": {
+    "repo": "F1y1113/MFI",
+    "count": 70,
+    "checked": "2026-10-13"
+  }
+}

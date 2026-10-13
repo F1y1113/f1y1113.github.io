@@ -1,6 +1,6 @@
 # Yifei Dong — Academic Homepage
 
-英文个人学术主页，直接使用提供的学术主页模板结构：800px 表格布局、14px Lato 正文、蓝色链接与淡黄色第一作者论文行。纯 HTML 和 CSS，无需安装依赖、JavaScript 或构建，可直接部署到 GitHub Pages。
+英文个人学术主页，直接使用提供的学术主页模板结构：800px 表格布局、14px Lato 正文、蓝色链接与淡黄色第一作者论文行。主体为纯 HTML 和 CSS，Stars 使用可选 JavaScript 更新，无需安装依赖或构建，可直接部署到 GitHub Pages。
 
 ## 本地运行
 
@@ -14,10 +14,12 @@ python3 -m http.server 8000 --bind 0.0.0.0
 
 ## 文件与维护
 
-- `index.html`：简介、动态、10 项精选成果（9 篇论文及 1 篇预印本）、独立的 Technical Reports 栏目、经历、教育、奖项与学术服务。
+- `index.html`：简介、动态、9 篇精选论文、独立的 Technical Report 栏目、经历、奖项与学术服务。
 - `stylesheet.css`：模板的基础样式，以及手机布局和键盘访问支持。
 - `assets/fonts/`：本地 Lato 字体（常规、粗体、斜体、粗斜体）及 OFL 许可。
-- `assets/images/`：旧主页头像与研究项目配图，均保存在本地。
+- `assets/images/`：旧主页头像、研究项目配图与机构标志，均保存在本地。
+- `assets/badges/`：已核实的 GitHub Stars 本地快照、日期与图标许可。
+- `assets/stars.js`：徽章服务成功加载时切换到实时星数；不可用时保留本地快照。
 - `assets/documents/Yifei_Dong_CV.pdf`：用户提供的最新 CV 原文件。
 - `SOURCES.md`：内容与图片来源、维护注意事项。
 
@@ -40,3 +42,5 @@ python3 scripts/check_site.py
 该检查验证 HTML 内部链接、本地资源、页面标识、论文数量与顺序、必要个人资料和本地 CV。浏览器验证还应覆盖手机宽度、字体实际加载、动态折叠、键盘访问、图片加载与 CV 下载。
 
 模板原始来源：[Jon Barron](https://jonbarron.info/)。
+
+Stars 仅用于一作或共同一作且已确认仓库的论文。通过 shields.io 加载实时徽章；无网络或禁用 JavaScript 时显示 `assets/badges/stars.json` 记录的快照（鼠标悬停显示核实日期）。更新快照时应同步 JSON 与对应 SVG，不能仅修改数字而不核实仓库。

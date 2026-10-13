@@ -76,10 +76,10 @@ def main():
     selected = [item for item in site.articles if 'data-category' in item]
     reports = [item for item in site.articles if 'data-category' not in item]
     categories = Counter(item['data-category'] for item in selected)
-    if categories != {'navigation': 6, 'vision-language': 4}:
+    if categories != {'navigation': 5, 'vision-language': 4}:
         errors.append(f'Unexpected publication categories: {categories}')
-    if len(selected) != 10:
-        errors.append(f'Expected 10 selected works, found {len(selected)}')
+    if len(selected) != 9:
+        errors.append(f'Expected 9 selected works, found {len(selected)}')
     if [item.get('id') for item in reports] != ['agentic-world-modeling']:
         errors.append('Expected the world modeling report in its own section')
     if not selected or selected[-1].get('id') != 'maxsup':

@@ -43,4 +43,4 @@ python3 scripts/check_site.py
 
 模板原始来源：[Jon Barron](https://jonbarron.info/)。
 
-Stars 仅用于一作或共同一作且已确认仓库的论文；金融综述按个人偏好不显示。通过 shields.io 加载实时徽章；无网络或禁用 JavaScript 时显示 `assets/badges/stars.json` 记录的快照（鼠标悬停显示核实日期）。更新快照时应同步 JSON 与对应 SVG，不能仅修改数字而不核实仓库。
+Stars 用于一作或共同一作且已确认仓库的论文，以及 Agentic World Modeling 技术报告；金融综述按个人偏好不显示。通过 shields.io 加载实时徽章；无网络或禁用 JavaScript 时显示 `assets/badges/stars.json` 记录的快照（鼠标悬停显示核实日期）。更新快照时应同步 JSON 与对应 SVG，不能仅修改数字而不核实仓库。

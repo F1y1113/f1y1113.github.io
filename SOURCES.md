@@ -13,7 +13,7 @@ The user-supplied publication screenshot provides the title, author order, and A
 - SHIELD: https://github.com/F1y1113/MFI — paper and author information.
 - MaxSup: https://github.com/ZhouYuxuanYX/Maximum-Suppression-Regularization — code and research figure.
 
-Equal-contribution markers follow the supplied CV where it differs from older pages. Abbreviated author lists use “et al.” rather than guessing omitted names. Tiresias is omitted from the homepage at the user’s request; Education and Beyond Research sections are also omitted. News uses a month only when supplied materials or project announcements establish it. GitHub Stars badges are limited to confirmed repositories for first/co-first-authored selected papers.
+Equal-contribution markers follow the supplied CV where it differs from older pages. Abbreviated author lists use “et al.” rather than guessing omitted names. Tiresias is omitted from the homepage at the user’s request; Education and Beyond Research sections are also omitted. News uses a month only when supplied materials or project announcements establish it. GitHub Stars badges appear on confirmed repositories for first/co-first-authored selected papers and, at the user’s request, the world modeling survey.
 
 ## Local images
 
@@ -36,7 +36,7 @@ Images are optimized WebP copies. Research figures remain attributed to their re
 | `maxsup.webp` | User upload: `assets/images/figure3.png` |
 | `antiuav.webp` | User upload: `assets/images/uav.pdf` |
 
-The favicon is a simple YD monogram. The site includes no analytics or third-party tracking resources. Fonts, figures, institution marks, and fallback badges are local. Optional live Stars badges request images from `img.shields.io`; external links open research resources and profiles.
+The favicon uses the same sourced UW Block W as the Experience section, in white on UW purple. The site includes no analytics or third-party tracking resources. Fonts, figures, institution marks, and fallback badges are local. Optional live Stars badges request images from `img.shields.io`; external links open research resources and profiles.
 
 ## Layout and typography
 
@@ -46,9 +46,9 @@ Lato Regular, Bold, Italic, and Bold Italic are bundled from the official Google
 
 ## Report and Stars references
 
-The world modeling report's code and project links are verified from https://github.com/matrix-agent/awesome-agentic-world-modeling and point to that repository and https://agentic-world-modeling.xyz/. Its abbreviated author line remains visible without a full-list expander.
+The world modeling report's code and project links are verified from https://github.com/matrix-agent/awesome-agentic-world-modeling and point to that repository and https://agentic-world-modeling.xyz/. The displayed author credit is “Awesome Agentic World Modeling Team,” as requested by the user.
 
-Star counts were checked on GitHub repository pages on 2026-10-13: `UWMILab/LCVN` 130, `UWMILab/UniWM` 312, `UWMILab/HA-VLN` 462, `UWMILab/GoViG` 28, and `F1y1113/MFI` 70. These dated local snapshots remain visible when the live shields.io service is unavailable. Successful live loads replace them automatically. The GitHub mark comes from `primer/octicons/icons/mark-github-16.svg`; its MIT license is bundled in `assets/badges/octicons-LICENSE.txt`.
+Star counts were checked on GitHub repository pages on 2026-10-13: `UWMILab/LCVN` 130, `UWMILab/UniWM` 312, `UWMILab/HA-VLN` 462, `UWMILab/GoViG` 28, and `F1y1113/MFI` 70. The world modeling repository was checked separately on 2026-10-14: 326 stars. These dated local snapshots remain visible when the live shields.io service is unavailable. Successful live loads replace them automatically. The GitHub mark comes from `primer/octicons/icons/mark-github-16.svg`; its MIT license is bundled in `assets/badges/octicons-LICENSE.txt`.
 
 The Anti-UAV survey now uses the user-supplied figure. It has no Stars badge because no code repository is confirmed. The finance survey badge is omitted at the user’s request. Experience uses the user-supplied Graphen logo and CMU wordmark, alongside the existing UW mark.
 
@@ -67,3 +67,5 @@ The v5 CV adds the UW Graduate School Conference Presentation Award (2026); the 
 News follows the user’s compact bullet-list reference: one continuously visible reverse-chronological list, bold dates only, regular-weight conference/challenge links, and paper counts rather than titles. No Earlier News disclosure is used.
 
 Publication figures use a 38% desktop image column. Each figure fits within the adjacent text row’s height using `object-fit: contain`, preserving the full image and its original proportions. On narrow screens figures sit above the text, fit the available width, and are capped at 280px high.
+
+The user supplied the complete Anti-UAV author order: Yifei Dong, Fengyi Wu, Sanjian Zhang, Guangyu Chen, Yuzhi Hu, Masumi Yano, Jingdong Sun, Siyu Huang, Feng Liu, Qi Dai, Zhi-Qi Cheng. Only Yifei Dong and Fengyi Wu carry equal-contribution markers. Experience shows institutions, roles, full month names, and linked advisors/mentors; project descriptions are omitted. MIL abbreviates Multimodal Intelligence Lab and links to its GitHub organization. Kate Whitefoot’s faculty URL comes from the SHIELD project page; Ching-Yung Lin’s faculty URL comes from the supplied previous homepage.

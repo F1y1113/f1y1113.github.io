@@ -23,5 +23,10 @@
     "repo": "F1y1113/MFI",
     "count": 70,
     "checked": "2026-10-13"
+  },
+  "agentic-world-modeling": {
+    "repo": "matrix-agent/awesome-agentic-world-modeling",
+    "count": 326,
+    "checked": "2026-10-14"
   }
 }

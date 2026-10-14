@@ -1,1 +1,2 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><rect width="64" height="64" rx="14" fill="#1769aa"/><text x="32" y="42" text-anchor="middle" font-family="Arial,sans-serif" font-size="30" font-weight="700" fill="white">YD</text></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><rect width="64" height="64" rx="8" fill="#4b2e83"/><g transform="translate(6 14.5)"><path fill="#FFFFFF" d="M38.132,0v6.3h4.428l-4.942,18.407c0,0-6.053-24.364-6.136-24.707H25.08  c-0.09,0.335-6.641,24.707-6.641,24.707L13.889,6.3H18.5V0H0v6.3h4.099c0,0,7.071,28.297,7.159,28.639h9.93  c0.087-0.336,4.738-18.021,4.738-18.021c2.951,11.798,2.805,11.051,4.505,18.021h9.935C40.451,34.603,47.896,6.3,47.896,6.3h4.066V0  H38.132z"/>
+</g></svg>

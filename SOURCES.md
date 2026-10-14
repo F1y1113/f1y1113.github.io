@@ -60,6 +60,8 @@ Each news item describes a single event, ordered newest first. Current 2026 acce
 - ECCV 2026 final notification: June 17; IROS 2026 paper acceptance notification: June 16. The official sites could not be fetched in this environment. Months were checked against the published conference calendar snapshots in `awsaf49/paperrush`, `js/data.js`: ECCV at commit `a184703`, IROS at `8476524`. These are secondary calendar records, not independent confirmation of an individual paper's email date. Official references: https://eccv.ecva.net/Conferences/2026/Dates and https://2026.ieee-iros.org/.
 - October 2026 Top Reviewer and both July 2026 travel awards: explicit dates supplied by the user.
 - Older conference/presentation months: NeurIPS 2025 (December), EMNLP 2025 Findings publication (November), CVPR 2025 Anti-UAV workshop award (June), NeurIPS 2024 Spotlight presentation (December), and EMNLP 2024 Oral/Outstanding Paper Finalist (November). These are conference/publication months, not claimed acceptance-notification dates.
-- September 2026 LCVN/RoboWorld announcements and September 2025 Ph.D. start retain the user-provided months.
+- September 2026 paper/RoboWorld announcements and September 2025 Ph.D. start retain the user-provided months. Carwein-Andrews PhD Fellowship (September 2025) and Top Scholar Award (April 2025) are separate news entries using dates explicitly supplied by the user.
 
 The v5 CV adds the UW Graduate School Conference Presentation Award (2026); the awards list also preserves the supplied EMNLP top-4.8% distinction, Anti-UAV one-of-two award, and TRECVID Oral designation. The downloaded CV is byte-for-byte identical to the supplied v5 PDF.
+
+News follows the user’s compact bullet-list reference: one continuously visible reverse-chronological list, bold dates only, regular-weight conference/challenge links, and paper counts rather than titles. No Earlier News disclosure is used.

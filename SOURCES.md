@@ -65,3 +65,5 @@ Each news item describes a single event, ordered newest first. Current 2026 acce
 The v5 CV adds the UW Graduate School Conference Presentation Award (2026); the awards list also preserves the supplied EMNLP top-4.8% distinction, Anti-UAV one-of-two award, and TRECVID Oral designation. The downloaded CV is byte-for-byte identical to the supplied v5 PDF.
 
 News follows the user’s compact bullet-list reference: one continuously visible reverse-chronological list, bold dates only, regular-weight conference/challenge links, and paper counts rather than titles. No Earlier News disclosure is used.
+
+Publication figures use a 38% desktop image column. Each figure fits within the adjacent text row’s height using `object-fit: contain`, preserving the full image and its original proportions. On narrow screens figures sit above the text, fit the available width, and are capped at 280px high.

@@ -1,6 +1,6 @@
 # Content and asset sources
 
-The supplied 2026 CV is the primary source for current appointments, education, publication status, awards, and service. The supplied previous homepage provides the avatar, social profiles, interests, and established publication links. The downloadable CV is an unchanged copy of the supplied PDF.
+The supplied 2026 CV v5 (2026_Yifei_Dong_CV_v5 (1).pdf), updated on 2026-10-14, is the primary source for current appointments, education, publication status, awards, and service. The supplied previous homepage provides the avatar, social profiles, interests, and established publication links. The downloadable CV is an unchanged copy of the supplied PDF.
 
 The user-supplied publication screenshot provides the title, author order, and April 24, 2026 date for “Agentic World Modeling: Foundations, Capabilities, Laws, and Beyond,” shown separately under Technical Reports. The user supplied its PDF URL: https://arxiv.org/pdf/2604.22748. Per the user's editorial preference, the TRECVID 2022 paper is excluded from the web publication list and MaxSup appears last in Selected Publications.
 
@@ -22,17 +22,18 @@ Images are optimized WebP copies. Research figures remain attributed to their re
 | File | Source |
 | --- | --- |
 | `yifei.webp` | Supplied previous homepage: `images/yifei.png` |
-| `lcvn.webp` | `UWMILab/LCVN`, `assets/lcvn.jpg` |
-| `uniwm.webp` | `UWMILab/UniWM`, `assists/comparison.png` |
-| `havln.webp` | `UWMILab/HA-VLN`, `demo/figs/task_define_final-1.png` |
-| `govig.webp` | `F1y1113/GoViG`, `assists/task_overview.png` |
-| `finance.webp` | `F1y1113/fin_survey`, `static/images/fin_overview.png` |
-| `shield.webp` | `F1y1113/MFI`, `docs/static/images/motivation.png` |
-| `havln2024.webp` | `lpercc/HA3D_simulator`, `output_img.jpg` |
+| `lcvn.webp` | User upload: `assets/images/hl.pdf` |
+| `uniwm.webp` | User upload: `assets/images/teaser (6).pdf` |
+| `havln.webp` | User upload: `assets/images/teaser (7).pdf` |
+| `govig.webp` | User upload: `assets/images/task_overview.pdf` |
+| `finance.webp` | User upload: `assets/images/figure1_211.pdf` |
+| `shield.webp` | User upload: `assets/images/motivation.png` |
+| `havln2024.webp` | Matches the user-supplied image; `lpercc/HA3D_simulator`, branch `website`, `docs/static/images/agent_human_interaction.jpg` |
 | `agentic-world-modeling.webp` | `matrix-agent/awesome-agentic-world-modeling`, `public/banner.png` |
 | `uw.svg` | UW web theme: `uweb/uw-2014`, `assets/svg/w.svg`; white Block W on purple |
 | `cmu.webp` | CMU DIG Lab website: `cmudig/cmudig.github.io`, `assets/bg-seal.avif`; watermark opacity normalized for legibility |
-| `maxsup.webp` | `ZhouYuxuanYX/Maximum-Suppression-Regularization`, `Improved_Feature.png` |
+| `maxsup.webp` | User upload: `assets/images/figure3.png` |
+| `antiuav.webp` | User upload: `assets/images/uav.pdf` |
 
 The favicon is a simple YD monogram. The site includes no analytics or third-party tracking resources. Fonts, figures, institution marks, and fallback badges are local. Optional live Stars badges request images from `img.shields.io`; external links open research resources and profiles.
 
@@ -46,6 +47,18 @@ Lato Regular, Bold, Italic, and Bold Italic are bundled from the official Google
 
 The world modeling report's code and project links are verified from https://github.com/matrix-agent/awesome-agentic-world-modeling and point to that repository and https://agentic-world-modeling.xyz/. Its abbreviated author line remains visible without a full-list expander.
 
-Star counts were checked on GitHub repository pages on 2026-10-13: `UWMILab/LCVN` 130, `UWMILab/UniWM` 312, `UWMILab/HA-VLN` 462, `UWMILab/GoViG` 28, `F1y1113/fin_survey` 4, and `F1y1113/MFI` 70. These dated local snapshots remain visible when the live shields.io service is unavailable. Successful live loads replace them automatically. The GitHub mark comes from `primer/octicons/icons/mark-github-16.svg`; its MIT license is bundled in `assets/badges/octicons-LICENSE.txt`.
+Star counts were checked on GitHub repository pages on 2026-10-13: `UWMILab/LCVN` 130, `UWMILab/UniWM` 312, `UWMILab/HA-VLN` 462, `UWMILab/GoViG` 28, and `F1y1113/MFI` 70. These dated local snapshots remain visible when the live shields.io service is unavailable. Successful live loads replace them automatically. The GitHub mark comes from `primer/octicons/icons/mark-github-16.svg`; its MIT license is bundled in `assets/badges/octicons-LICENSE.txt`.
 
-No verified public repository or suitable accessible source figure was found for the Anti-UAV survey, so it has no Stars badge or fabricated illustration. Graphen remains a text entry; the two university entries use sourced institution marks.
+The Anti-UAV survey now uses the user-supplied figure. It has no Stars badge because no code repository is confirmed. The finance survey badge is omitted at the user’s request. Graphen remains a text entry; the two university entries use sourced institution marks.
+
+## News dates (updated 2026-10-14)
+
+Each news item describes a single event, ordered newest first. Current 2026 acceptance items use the conference notification month; older presentation/award items use the conference month and explicitly say “presented” where appropriate.
+
+- ACL 2026 acceptance: April 4, verified in the official site repository, `acl-org/acl-2026`, `_pages/calls/main_conference_papers.md` (https://github.com/acl-org/acl-2026/blob/main/_pages/calls/main_conference_papers.md).
+- ECCV 2026 final notification: June 17; IROS 2026 paper acceptance notification: June 16. The official sites could not be fetched in this environment. Months were checked against the published conference calendar snapshots in `awsaf49/paperrush`, `js/data.js`: ECCV at commit `a184703`, IROS at `8476524`. These are secondary calendar records, not independent confirmation of an individual paper's email date. Official references: https://eccv.ecva.net/Conferences/2026/Dates and https://2026.ieee-iros.org/.
+- October 2026 Top Reviewer and both July 2026 travel awards: explicit dates supplied by the user.
+- Older conference/presentation months: NeurIPS 2025 (December), EMNLP 2025 Findings publication (November), CVPR 2025 Anti-UAV workshop award (June), NeurIPS 2024 Spotlight presentation (December), and EMNLP 2024 Oral/Outstanding Paper Finalist (November). These are conference/publication months, not claimed acceptance-notification dates.
+- September 2026 LCVN/RoboWorld announcements and September 2025 Ph.D. start retain the user-provided months.
+
+The v5 CV adds the UW Graduate School Conference Presentation Award (2026); the awards list also preserves the supplied EMNLP top-4.8% distinction, Anti-UAV one-of-two award, and TRECVID Oral designation. The downloaded CV is byte-for-byte identical to the supplied v5 PDF.

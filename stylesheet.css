@@ -128,7 +128,6 @@ a:focus-visible, summary:focus-visible { outline: 2px solid #1772d0; outline-off
 .skip-link:focus { top: 8px; }
 /* Institution marks sit alongside the original template's experience text. */
 .experience-entry { display: grid; grid-template-columns: 74px minmax(0, 1fr); gap: 14px; align-items: center; }
-.experience-entry.text-only { grid-template-columns: 1fr; }
 .experience-logo { display: flex; align-items: center; justify-content: center; width: 74px; height: 74px; }
 .uw-logo { background: #4b2e83; }
 .github-star-badge img { height: 20px; width: auto; }

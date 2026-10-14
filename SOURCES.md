@@ -28,10 +28,11 @@ Images are optimized WebP copies. Research figures remain attributed to their re
 | `govig.webp` | User upload: `assets/images/task_overview.pdf` |
 | `finance.webp` | User upload: `assets/images/figure1_211.pdf` |
 | `shield.webp` | User upload: `assets/images/motivation.png` |
-| `havln2024.webp` | Matches the user-supplied image; `lpercc/HA3D_simulator`, branch `website`, `docs/static/images/agent_human_interaction.jpg` |
+| `havln2024.webp` | User upload: `assets/images/ha.png` |
 | `agentic-world-modeling.webp` | `matrix-agent/awesome-agentic-world-modeling`, `public/banner.png` |
 | `uw.svg` | UW web theme: `uweb/uw-2014`, `assets/svg/w.svg`; white Block W on purple |
-| `cmu.webp` | CMU DIG Lab website: `cmudig/cmudig.github.io`, `assets/bg-seal.avif`; watermark opacity normalized for legibility |
+| `cmu.webp` | User upload: `assets/images/cmu.jpg` |
+| `graphen.webp` | User upload: `assets/images/graphen.png` |
 | `maxsup.webp` | User upload: `assets/images/figure3.png` |
 | `antiuav.webp` | User upload: `assets/images/uav.pdf` |
 
@@ -49,7 +50,7 @@ The world modeling report's code and project links are verified from https://git
 
 Star counts were checked on GitHub repository pages on 2026-10-13: `UWMILab/LCVN` 130, `UWMILab/UniWM` 312, `UWMILab/HA-VLN` 462, `UWMILab/GoViG` 28, and `F1y1113/MFI` 70. These dated local snapshots remain visible when the live shields.io service is unavailable. Successful live loads replace them automatically. The GitHub mark comes from `primer/octicons/icons/mark-github-16.svg`; its MIT license is bundled in `assets/badges/octicons-LICENSE.txt`.
 
-The Anti-UAV survey now uses the user-supplied figure. It has no Stars badge because no code repository is confirmed. The finance survey badge is omitted at the user’s request. Graphen remains a text entry; the two university entries use sourced institution marks.
+The Anti-UAV survey now uses the user-supplied figure. It has no Stars badge because no code repository is confirmed. The finance survey badge is omitted at the user’s request. Experience uses the user-supplied Graphen logo and CMU wordmark, alongside the existing UW mark.
 
 ## News dates (updated 2026-10-14)
 

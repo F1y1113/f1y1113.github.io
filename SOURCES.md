@@ -1,6 +1,6 @@
 # Content and asset sources
 
-The supplied 2026 CV v5 (2026_Yifei_Dong_CV_v5 (1).pdf), updated on 2026-10-14, is the primary source for current appointments, education, publication status, awards, and service. The supplied previous homepage provides the avatar, social profiles, interests, and established publication links. The downloadable CV is an unchanged copy of the supplied PDF.
+The supplied 2026 CV v5 (2026_Yifei_Dong_CV_v5.pdf), updated on 2026-10-22, is the primary source for current appointments, education, publication status, awards, and service. The supplied previous homepage provides the avatar, social profiles, interests, and established publication links. The downloadable CV is an unchanged copy of the supplied PDF.
 
 The user-supplied publication screenshot provides the title, author order, and April 24, 2026 date for “Agentic World Modeling: Foundations, Capabilities, Laws, and Beyond,” shown separately under Technical Reports. The user supplied its PDF URL: https://arxiv.org/pdf/2604.22748. Per the user's editorial preference, the TRECVID 2022 paper is excluded from the web publication list and MaxSup appears last in Selected Publications.
 
@@ -69,3 +69,5 @@ News follows the user’s compact bullet-list reference: one continuously visibl
 Publication figures use a 38% desktop image column. Each figure fits within the adjacent text row’s height using `object-fit: contain`, preserving the full image and its original proportions. On narrow screens figures sit above the text, fit the available width, and are capped at 280px high.
 
 The user supplied the complete Anti-UAV author order: Yifei Dong, Fengyi Wu, Sanjian Zhang, Guangyu Chen, Yuzhi Hu, Masumi Yano, Jingdong Sun, Siyu Huang, Feng Liu, Qi Dai, Zhi-Qi Cheng. Only Yifei Dong and Fengyi Wu carry equal-contribution markers. Experience shows institutions, roles, full month names, and linked advisors/mentors; project descriptions are omitted. MILab abbreviates Multimodal Intelligence Lab and links to its GitHub organization. Kate Whitefoot’s faculty URL comes from the SHIELD project page; Ching-Yung Lin’s LinkedIn URL (https://www.linkedin.com/in/ching-yung-lin-97b640/) was supplied directly by the user.
+
+On 2026-10-22, the user supplied a revised CV v5 listing “Financial Assistance Award, NeurIPS 2026.” This award is included in Honors and Awards and News. The News item uses October 2026, the month of this update and announcement; the CV itself specifies only the year. The local CV is an unchanged copy of this latest upload. Profile links place LinkedIn immediately before GitHub.

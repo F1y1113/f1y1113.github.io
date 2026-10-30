@@ -20,7 +20,7 @@ python3 -m http.server 8000 --bind 0.0.0.0
 - `assets/images/`：旧主页头像、研究项目配图与机构标志，均保存在本地。
 - `assets/badges/`：已核实的 GitHub Stars 本地快照、日期与图标许可。
 - `assets/stars.js`：徽章服务成功加载时切换到实时星数；不可用时保留本地快照。
-- `assets/documents/Yifei_Dong_CV.pdf`：用户提供的最新版 CV v5 原文件。
+- `assets/documents/Yifei_Dong_CV.pdf`：用户提供的最新版 CV v6 原文件。
 - `SOURCES.md`：内容与图片来源、维护注意事项。
 
 直接修改 HTML 即可更新内容。论文使用表格行，`data-work="publication"` 表示精选论文，`data-work="report"` 表示技术报告；`data-category` 标记研究方向。新增第一/共同第一作者论文时添加 `first-author-highlight` 类。没有可靠公开链接的成果仅显示文字，不使用占位链接。

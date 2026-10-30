@@ -75,3 +75,5 @@ On 2026-10-22, the user supplied a revised CV v5 listing “Financial Assistance
 The Graduate School Conference Presentation Award news uses August 2026, explicitly supplied by the user, and links “UW” to https://www.washington.edu/.
 
 CV v6, supplied on 2026-10-30, updates the Experience credits: UW lists Zhi-Qi Cheng as Advisor and Qi Dai as Collaborator; CMU lists Zhi-Qi Cheng, Kate Whitefoot, and Alexander G. Hauptmann as Mentors; Graphen lists Ching-Yung Lin as Director. Positions and date ranges are unchanged. Teaching retains the course and university without “Spring 2026,” as explicitly requested.
+
+The News viewport includes an inline height and scrolling fallback, and the stylesheet and News script URLs are versioned. This prevents a newly deployed page from expanding all entries when the browser reuses a stylesheet from before the scrolling layout. The sizing script measures the tenth entry relative to the viewport, including list margins. The profile research sentence was updated at the user’s request to “My work focuses on embodied AI, world models, and multimodal large language models.”

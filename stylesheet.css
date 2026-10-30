@@ -185,5 +185,5 @@ a:focus-visible, .news-window:focus-visible { outline: 2px solid #1772d0; outlin
 .news-window ul { margin: 0; padding: 2px 12px 2px 40px; }
 .news-window li { position: relative; }
 @media print {
-  .news-window { max-height: none; overflow: visible; }
+  .news-window { height: auto !important; max-height: none; overflow: visible !important; }
 }
